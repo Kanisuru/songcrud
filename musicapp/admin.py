@@ -3,6 +3,6 @@ from .models import Artiste, Song, Lyric
 
 # Register your models here.
 
-django.admin.register(Artiste)
-django.admin.register(Song)
-django.admin.register(Lyric)
+admin.site.register(Artiste)
+admin.site.register(Song)
+admin.site.register(Lyric)
